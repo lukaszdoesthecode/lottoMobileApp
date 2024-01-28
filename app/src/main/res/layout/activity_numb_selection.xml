@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yoursNumbersTV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FFFF"
+    tools:context=".NumbSelectionActivity">
+
+    <Button
+        android:id="@+id/btnRich"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="serif"
+        android:text="$GET RICH$"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+        android:id="@+id/picker1"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="342dp"
+        android:solidColor="#D4131A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="serif"
+        android:text="Select"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/instructionTV"
+        android:layout_width="234dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="528dp"
+        android:fontFamily="serif"
+        android:text="Hey, select your lucky numbers!"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yoursTV"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="235dp"
+        android:fontFamily="serif"
+        android:text="Yours numbers:"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numbersTV"
+        android:layout_width="148dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="serif"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="422dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="568dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

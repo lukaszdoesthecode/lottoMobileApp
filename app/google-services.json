@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264194254842",
+    "project_id": "lottoapp3-0",
+    "storage_bucket": "lottoapp3-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264194254842:android:ae0c648017114484d66643",
+        "android_client_info": {
+          "package_name": "com.lottoapp.lottoapp3_0"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHAkSim3YNEAIXBRc1ougLecZUPmMBCZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

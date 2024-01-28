@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FFFF"
+    tools:context=".NumbDrawingActivity">
+
+
+    <Button
+        android:id="@+id/btnStats"
+        android:layout_width="191dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="serif"
+        android:text="SHOW STATS!"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGetNumbers"
+        android:layout_width="191dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="461dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="serif"
+        android:text="Get_numbers"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="243dp"
+        android:fontFamily="serif"
+        android:text="button1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="243dp"
+        android:fontFamily="serif"
+        android:text="button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="243dp"
+        android:fontFamily="serif"
+        android:text="button3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="158dp"
+        android:fontFamily="serif"
+        android:text="button4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="158dp"
+        android:fontFamily="serif"
+        android:text="button 5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="157dp"
+        android:fontFamily="serif"
+        android:text="button6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/progress_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="412dp"
+        android:fontFamily="serif"
+        android:text="Progress"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prize_TV"
+        android:layout_width="361dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="352dp"
+        android:fontFamily="serif"
+        android:text="You have won... ???"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="213dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="439dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/custom_progress_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="258dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="538dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
